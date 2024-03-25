@@ -12,7 +12,6 @@ class Signup extends GetView<SplashController> {
 
   final _formKey = GlobalKey<FormState>();
 
-  var passwordVisible;
   RegExp numReg = RegExp(r".*[0-9].*");
   RegExp letterReg = RegExp(r".*[A-Za-z].*");
 
@@ -128,7 +127,6 @@ class Signup extends GetView<SplashController> {
                   ),
                 ],
               ),
-
             ],
           ),
         ),
